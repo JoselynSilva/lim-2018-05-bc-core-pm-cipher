@@ -2,11 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-    <div id="root"></div>
+      <div class="flex-container">
+            <header>
+              <h1>CIFRADO CESAR </h1>
+            </header>
+                    <div id="form" class="pure-control-group">
+
+                        <label for="mensaje"><i class="fas fa-envelope fa-lg"></i> Mensaje</label>
+                        <input type="text" class="form-control"  placeholder="Coloque su texto" id="mensaje" size="20"><br>
+                        <br>
+                        <label for="key"><i class="fas fa-key fa-lg"></i> Key</label>
+                        <input type="number" placeholder="Ingrese su numero" id="key" min="0" size="20"><br>
+                        <br>
+                    </div>
+                        <button id="encode" class="button"><i class="fas fa-lock"></i> Cifrar</button>
+                        <button id="decode" class="button"><i class="fas fa-unlock"></i> Descifrar</button><br>
+                        <br>
+                    <div class="pure-control-group" id="resultado">
+                            <input type="text" class="form-control"  placeholder="Su respuesta es" id="solucion" size="20"><br>
+                    </div>
+                        <button class="button"  onClick="clear()"><i class="fas fa-broom"></i> Limpiar</button>
+                        <button class="button" id="btnSalir"><i class="fas fa-times"></i> Salir</button>
+      </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

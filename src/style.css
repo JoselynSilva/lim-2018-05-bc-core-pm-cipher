@@ -1,0 +1,23 @@
+.flex-container {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+header {
+    background: lightcoral;
+    color:white;
+    opacity: 0.6;
+}
+
+
+#root{
+    position:  relative;
+}
