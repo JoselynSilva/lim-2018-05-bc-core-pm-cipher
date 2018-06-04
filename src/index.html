@@ -2,36 +2,105 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
-      <div class="flex-container">
-            <header>
-              <h1>CIFRADO CESAR </h1>
-            </header>
-                    <div id="form" class="pure-control-group">
+    <section id="root">
+      <!-- HEADER-->
+      <header>
+        <!-- Barra de navegacion -->
+        <div class="navBar">
+        <!-- Contenedor del logo-->
+          <div class="logo">
+            <!-- Link logo a pagina de inicio-->
+            <a id="linkLogo" href="index.html"><img src="cipherme.png"></a>
+          </div>
+        </div>
+      </header>
 
-                        <label for="mensaje"><i class="fas fa-envelope fa-lg"></i> Mensaje</label>
-                        <input type="text" class="form-control"  placeholder="Coloque su texto" id="mensaje" size="20"><br>
-                        <br>
-                        <label for="key"><i class="fas fa-key fa-lg"></i> Key</label>
-                        <input type="number" placeholder="Ingrese su numero" id="key" min="0" size="20"><br>
-                        <br>
-                    </div>
-                        <button id="encode" class="button"><i class="fas fa-lock"></i> Cifrar</button>
-                        <button id="decode" class="button"><i class="fas fa-unlock"></i> Descifrar</button><br>
-                        <br>
-                    <div class="pure-control-group" id="resultado">
-                            <input type="text" class="form-control"  placeholder="Su respuesta es" id="solucion" size="20"><br>
-                    </div>
-                        <button class="button"  onClick="clear()"><i class="fas fa-broom"></i> Limpiar</button>
-                        <button class="button" id="btnSalir"><i class="fas fa-times"></i> Salir</button>
+      <!-- INFORMACION CIPHER ME! -->
+      <div class="infoCipherMe" id="infoCipherMe">
+        <!-- Div 2 columnas -->
+        <div class="col-2">
+          <!-- Imagen -->
+          <div class="imageCipherMe">
+            <img src="p.png" alt="">
+          </div>
+        </div>
+        <!-- Div 2 columnas-->
+        <div class="col-2">
+          <!-- Contenido Cipher Me!-->
+          <div class="infoContent">
+            <!-- Imagen CipherMe! responsive -->
+            <div class="imageCipherMe2">
+              <img src="p.png" alt="">
+            </div>
+            <!-- Contenedor Intro -->
+            <div class="introContainer">
+              <h3 class="slogan">Cifrea tus mensajes con</h3>
+              <h1 class="title">CIPHER ME!</h1>
+            </div>
+            <!-- Texto intro-->
+            <div class="infoText">
+              <p>Deseas mandar en secreto tus mensajes y... No sabes como hacerlo? Llegaste al lugar correcto,
+                usa <strong>Cipher Me!</strong> La app web diseñada para ti, tus amigos y el mundo!
+                No esperes más y envia tus textos a cualquier red social Whatsapp, Facebook, Instagram... Todos!</p>
+            </div>
+            <!-- Boton para el Contenedor Instrucciones o Pasos -->
+            <div class="stepCipherMeButton">
+              <div type="submit" class="button" id="buttonPrincipal">
+                <a>Mundo Cipher!</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- AREA DE CIPHER ME! -->
+        <div class="areaCipherMe" id="areaCipherMe" style="display: none">
+              <!-- una columna-->
+              <div class="col">
+                <!-- Contenedor -->
+                <hgroup class="containerCipherMe">
+                  <h1 class="title"> CipherMe!</h1>
+                </hgroup>
+              </div>
+            <!-- Area de mensaje Cipher Me!-->
+            <div class="areaMessage">
+              <label for="mensaje"><i class="fas fa-envelope"></i> Mensaje</label>
+              <textarea id="inputMensaje" class="textarea" type="text" rows="5" cols="40" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <!-- Area de llave CipherMe! -->
+            <div class="areaKey">
+              <label for="llave"><i class="fas fa-key"></i>Llave</label>
+              <input id="numeroKey" type="number" min="0" placeholder="Ingrese la llave">
+            </div>
+            <!-- Contenedor botones limpiar, resetear y salir-->
+            <div class="buttonsContainer">
+              <button id="clean" type="button" class="btn">Limpiar</button>
+              <button id="refresh" type="button" class="btn">Resetear</button>
+              <button id="salir" type="button" class="btn">Salir</button>
+            </div>
+            <!-- Area de Cifrado CipherMe!-->
+            <div class="area">
+            <div class="areaCipherMessage">
+              <button type="button" id="cipher" class="btn2">Cifrar <i class="fas fa-lock"></i></button><br>
+              <textarea id="outputCifrado" class="textarea" type="text" rows="5" cols="40" placeholder="Su mensaje cifrado es"></textarea><br>
+              <button id="copyCipher" class="btn2"><i class="fas fa-copy"></i> Copiar Texto</button>
+            </div>
+            <!-- Area de Descifrado CipherMe!-->
+            <div class="areaDescipherMessage">
+              <button type="button" id="descipher" class="btn2">Descifrar <i class="fas fa-lock-open"></i></button><br>
+              <textarea id="outputDescifrado" class="textarea" type="text" rows="5" cols="40" placeholder="Su mensaje descifrado es"></textarea><br>
+              <button id="copyDescipher" class="btn2"><i class="fas fa-copy"></i> Copiar Texto</button>
+            </div>
+          </div>
+        </div>
+      </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
