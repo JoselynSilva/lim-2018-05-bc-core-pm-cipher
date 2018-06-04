@@ -45,7 +45,7 @@ o desencriptar un texto.
 El objetivo es que el usuario pueda realizar esas acciones sin ningun problema y facil
 manejo del producto.
 
-![Intro](file:///C:/Users/JOSELYN/Downloads/1.jpg)
+![Intro](1.jpg)
 
 
 ## Instalacion
