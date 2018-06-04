@@ -49,4 +49,4 @@ manejo del producto.
 ![Home](2.jpg)
 
 ## Instalacion
-Entra al siguiente enlace para que navegas -> https://jslyne.github.io/lim-2018-05-bc-core-pm-cipher/
+Entra al siguiente enlace para que navegas -> https://jslyne.github.io/lim-2018-05-bc-core-pm-cipher/src/index.html
