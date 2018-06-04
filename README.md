@@ -46,7 +46,7 @@ El objetivo es que el usuario pueda realizar esas acciones sin ningun problema y
 manejo del producto.
 
 ![Intro](1.jpg)
-
+![Home](2.jpg)
 
 ## Instalacion
 Entra al siguiente enlace para que navegas -> https://jslyne.github.io/lim-2018-05-bc-core-pm-cipher/
