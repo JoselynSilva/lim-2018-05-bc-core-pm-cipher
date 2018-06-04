@@ -4,7 +4,7 @@
 Esta WEB APP nos ayuda a cifrar y descifrar mensajes del usuario con la tecnica
 de cifrado mas simple y usada que es CIFRADO CESAR.
 
-##Cifrado Cesar
+## Cifrado Cesar
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
 primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por
 sustitución en el que una letra en el texto original es reemplazada por otra
@@ -27,23 +27,23 @@ pero el cifrado César muchas veces puede formar parte de sistemas más complejo
 de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
 sistema ROT13.
 
-##Preambulo
+## Preambulo
 Deseas mandar en secreto tus mensajes y... No sabes como hacerlo? Llegaste al lugar
 correcto, usa Cipher Me! La app web diseñada para ti, tus amigos y el mundo!
 No esperes más y envia tus textos a cualquier red social Whatsapp, Facebook, Instagram...
 Todos!
 
-##Tecnologia usada
+## Tecnologia usada
 Esta web app usa las siguientes tecnologias:
 • HTML
 • CSS
 • JAVASCRIPT
 
-#Definicion del Producto
+## Definicion del Producto
 El uso de la web app esta dirigido a todo tipo de usuarios que deseen encriptar
 o desencriptar un texto.
 El objetivo es que el usuario pueda realizar esas acciones sin ningun problema y facil
 manejo del producto.
 
-#Instalacion
+## Instalacion
 Entra al siguiente enlace para que navegas -> https://jslyne.github.io/lim-2018-05-bc-core-pm-cipher/
