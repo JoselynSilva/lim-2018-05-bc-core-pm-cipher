@@ -45,8 +45,9 @@ o desencriptar un texto.
 El objetivo es que el usuario pueda realizar esas acciones sin ningun problema y facil
 manejo del producto.
 
-![Intro](1.jpg)
-![Home](2.jpg)
+![1](https://user-images.githubusercontent.com/34355830/41000070-72980dc2-68d2-11e8-8753-cc169a004632.jpg)
+
+![2](https://user-images.githubusercontent.com/34355830/41000122-94a54024-68d2-11e8-8a51-69e5f0a2b86c.jpg)
 
 ## Instalacion
 Entra al siguiente enlace para que navegas -> https://jslyne.github.io/lim-2018-05-bc-core-pm-cipher/src/
