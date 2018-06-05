@@ -276,12 +276,9 @@ input[type=number]:focus {
 
 /*RESPONSIVE*/
 
-@media screen and (max-width:565px) {
-    logo{
-            width: 10%;
-    }
+@media screen and (max-width:570px) {
     div{
-            width: 250px;
+            width: 350px;
         }
     img{
             position: center;
