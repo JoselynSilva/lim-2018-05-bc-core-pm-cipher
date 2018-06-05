@@ -276,8 +276,8 @@ input[type=number]:focus {
 
 /*RESPONSIVE*/
 
-@media screen and (max-width:480px) {
-    .linkLogo{
+@media screen and (max-width:565px) {
+    logo{
             width: 10%;
     }
     div{
