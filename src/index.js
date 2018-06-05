@@ -1,18 +1,18 @@
 //Boton para desplegar cipherArea y ocultar cipherInformation
     document.getElementById('buttonPrincipal').addEventListener('click', () => {
-    //Desplegando cipherArea
-    document.getElementById('areaCipherMe').style.display = '';
-    //Ocultando cipherInformation
-    document.getElementById('infoCipherMe').style.display = 'none';
+      //Desplegando cipherArea
+      document.getElementById('areaCipherMe').style.display = '';
+      //Ocultando cipherInformation
+      document.getElementById('infoCipherMe').style.display = 'none';
 });
 //Boton para volver al incio de la pagina
     document.getElementById('linkLogo').addEventListener('click', () => {
-    //Ocultando cipherArea
-    document.getElementById('areaCipherMe').style.display = 'none';
-    //Ocultando cipherSteps
-    document.getElementById('stepCipherMe').style.display = 'none';
-    //Desplegando cipherInformation
-    document.getElementById('infoCipherMe').style.display = '';
+      //Ocultando cipherArea
+      document.getElementById('areaCipherMe').style.display = 'none';
+      //Ocultando cipherSteps
+      document.getElementById('stepCipherMe').style.display = 'none';
+      //Desplegando cipherInformation
+      document.getElementById('infoCipherMe').style.display = '';
 });
 //1.Evento: BOTON CIFRAR
 document.getElementById('cipher').addEventListener('click', () => {
