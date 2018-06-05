@@ -24,8 +24,6 @@ window.cipher = {
                 //1) Creo la variable para la letra minuscula = minusAscii
                 formulaAscii = (codeAscii - 97 + offset) % 26 + 97;
             }
-            //Condicion para el espacio en blanco: Se iguala a  32
-            //Porque en esa posicion se encuentra el espacio en ascii
             else {
                 formulaAscii = codeAscii;
             }
